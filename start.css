@@ -53,6 +53,8 @@ body{
 .buttonContainer{
     width: 50%;
     margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
 }
 .playerNumber{
     background-color: rgba(64, 57, 57, 0.5);

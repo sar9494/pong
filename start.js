@@ -9,6 +9,8 @@ gameName.id = "gameName";
 startPage.appendChild(gameName);
 startElement.appendChild(startPage);
 
+let player1Name="player 1"
+let player2Name="player 2"
 const buttonContainer=document.createElement("div")
 buttonContainer.className="buttonContainer"
 const onePlayerButton=document.createElement("button")
@@ -18,6 +20,9 @@ onePlayerButton.innerText="one player"
 const twoPlayerButton=document.createElement("button")
 twoPlayerButton.className="playerNumber"
 twoPlayerButton.innerText="two player"
+twoPlayerButton.addEventListener(()=>{
+
+})
 
 buttonContainer.appendChild(onePlayerButton)
 buttonContainer.appendChild(twoPlayerButton)
