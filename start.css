@@ -50,4 +50,17 @@ body{
     border-radius: 15px;
     display: none;
 }
+.buttonContainer{
+    width: 50%;
+    margin: 50px auto;
+}
+.playerNumber{
+    background-color: rgba(64, 57, 57, 0.5);
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 0 5px;
+    color: white;
+    padding: 5px;
+}
 

@@ -9,10 +9,20 @@ gameName.id = "gameName";
 startPage.appendChild(gameName);
 startElement.appendChild(startPage);
 
+const buttonContainer=document.createElement("div")
+buttonContainer.className="buttonContainer"
 const onePlayerButton=document.createElement("button")
-const twoPlayerButton=document.createElement("button")
 onePlayerButton.className="playerNumber"
+onePlayerButton.innerText="one player"
+
+const twoPlayerButton=document.createElement("button")
 twoPlayerButton.className="playerNumber"
+twoPlayerButton.innerText="two player"
+
+buttonContainer.appendChild(onePlayerButton)
+buttonContainer.appendChild(twoPlayerButton)
+
+startPage.appendChild(buttonContainer);
 
 
 const logIn = document.createElement("div");
