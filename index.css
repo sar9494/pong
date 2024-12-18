@@ -1,6 +1,7 @@
 #gameContainer{
     text-align: center;
 }
+<<<<<<< HEAD
 #gameBoard{
     border: 3px solid;
 }
@@ -17,3 +18,12 @@
     border-radius: 15px;
     cursor: pointer;
 }
+=======
+canvas{
+    width: 500px;
+    height: 400px;
+    background-color: green;
+    kjjuj
+}
+aihfh
+>>>>>>> 7ba808dd02500aaf0e92971d32c83bd0da348578
