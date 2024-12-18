@@ -1,0 +1,10 @@
+.game-container{
+    background-color: aqua;
+    width: 500px;
+    height: 500px;
+}
+canvas{
+    width: 500px;
+    height: 400px;
+    background-color: green;
+}
